@@ -4,8 +4,8 @@
  The two services were very similar with the same commit date so I couldn't tell which one is the one we needed or if we needed both.
  This receives its code from settingService.
  The service request mapping to ("/api/v2/setting") and use MediaType.APPLICAION_JSON_VALUE
-Implements CRUD operations for Settings.
-Create a Settings
-Retrieve Settings object by settingsId and Global Settings which retrieves all settings.
-Update a setting
-Delete a setting through the sessionId
+1. Implements CRUD operations for Settings.
+ 1.Create a Settings
+ 2.Retrieve Settings object by settingsId and Global Settings which retrieves all settings.
+ 3.Update a setting
+ 4.Delete a setting through the sessionId

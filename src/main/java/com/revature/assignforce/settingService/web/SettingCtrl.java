@@ -1,9 +1,9 @@
-package com.revature.assignforce.settingService.web;
+package com.revature.hydra.settingService.web;
 
 
-import com.revature.assignforce.settingService.domain.Setting;
-import com.revature.assignforce.settingService.domain.dto.ResponseErrorDTO;
-import com.revature.assignforce.settingService.service.DaoService;
+import com.revature.hydra.settingService.domain.Setting;
+import com.revature.hydra.settingService.domain.dto.ResponseErrorDTO;
+import com.revature.hydra.settingService.service.DaoService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

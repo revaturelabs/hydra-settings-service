@@ -1,4 +1,4 @@
-package com.revature.assignforce.settingService.config;
+package com.revature.hydra.settingService.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

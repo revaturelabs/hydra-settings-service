@@ -1,7 +1,8 @@
-package com.revature.hydra.settingService.domain.dao;
+package com.revature.hydra.settingService.beans.dao;
 
-import com.revature.hydra.settingService.domain.Setting;
 import com.revature.assignforcecommon.dao.BaseRepository;
+import com.revature.hydra.settingService.beans.Setting;
+
 import org.springframework.stereotype.Repository;
 
 /**

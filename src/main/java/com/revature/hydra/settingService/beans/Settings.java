@@ -1,4 +1,4 @@
-package com.revature.hydra.settingService.domain;
+package com.revature.hydra.settingService.beans;
 //package com.revature.assignforce.settingsservice.domain;
 //
 //import org.springframework.data.annotation.Id;

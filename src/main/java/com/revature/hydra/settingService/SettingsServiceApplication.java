@@ -1,7 +1,6 @@
 package com.revature.hydra.settingService;
 
 import com.revature.hydra.settingService.config.SpringApplicationContextInitializer;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
@@ -12,8 +11,8 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 //import org.springframework.web.bind.annotation.RestController;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
-@EnableMongoRepositories(basePackages = "com.revature.assignforce.settingService")
-@SpringBootApplication(scanBasePackages = {"com.revature.assignforce.settingService", "com.revature.assignforcecommon.security"},
+@EnableMongoRepositories(basePackages = "com.revature.hydra.settingService")
+@SpringBootApplication(scanBasePackages = {"com.revature.hydra.settingService", "com.revature.assignforcecommon.security"},
 		exclude = {DataSourceAutoConfiguration.class, DataSourceTransactionManagerAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
 //@EnableDiscoveryClient
 public class SettingsServiceApplication extends SpringBootServletInitializer {

@@ -1,7 +1,7 @@
 package com.revature.hydra.settingService.service;
 
 import com.revature.hydra.settingService.beans.Setting;
-import com.revature.hydra.settingService.beans.dao.SettingRepository;
+import com.revature.hydra.settingService.beans.data.SettingRepository;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

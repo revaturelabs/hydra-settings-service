@@ -1,4 +1,4 @@
-package com.revature.hydra.settingService.repositories;
+package com.revature.hydra.settingService.data;
 //package com.revature.assignforce.settingsservice.repositories;
 //
 //import com.fasterxml.jackson.databind.DeserializationFeature;

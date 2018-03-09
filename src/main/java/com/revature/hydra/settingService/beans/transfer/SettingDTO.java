@@ -1,4 +1,4 @@
-package com.revature.hydra.settingService.beans.dto;
+package com.revature.hydra.settingService.beans.transfer;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

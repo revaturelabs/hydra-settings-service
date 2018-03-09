@@ -1,8 +1,8 @@
-package com.revature.hydra.settingService.web;
+package com.revature.hydra.settingService.controller;
 
 
 import com.revature.hydra.settingService.beans.Setting;
-import com.revature.hydra.settingService.beans.dto.ResponseErrorDTO;
+import com.revature.hydra.settingService.beans.transfer.ResponseErrorDTO;
 import com.revature.hydra.settingService.service.DaoService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

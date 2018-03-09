@@ -1,4 +1,4 @@
-package com.revature.hydra.settingService.beans;
+package com.revature.beans;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

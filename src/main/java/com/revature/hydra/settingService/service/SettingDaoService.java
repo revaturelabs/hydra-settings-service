@@ -1,6 +1,6 @@
 package com.revature.hydra.settingService.service;
 
-import com.revature.hydra.settingService.beans.Setting;
+import com.revature.beans.Setting;
 import com.revature.hydra.settingService.beans.data.SettingRepository;
 
 import org.springframework.stereotype.Service;

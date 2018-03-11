@@ -1,4 +1,4 @@
-package com.revature.hydra.settingService.config;
+package com.revature.hydra.settingsService.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

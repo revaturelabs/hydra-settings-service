@@ -1,4 +1,4 @@
-package com.revature.assignforce.settingService;
+package com.revature.hydra.settingsService;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

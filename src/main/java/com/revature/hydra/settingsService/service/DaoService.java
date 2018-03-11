@@ -1,4 +1,4 @@
-package com.revature.hydra.settingService.service;
+package com.revature.hydra.settingsService.service;
 
 import com.revature.assignforcecommon.dao.BaseRepository;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -25,7 +25,7 @@ public class SettingsServiceApplication extends SpringBootServletInitializer {
 		new SpringApplicationBuilder( SettingsServiceApplication.class).
 			initializers( new SpringApplicationContextInitializer())
 			.application()
-			.run( args);
+			.run(args);
 
 //		SpringApplication.run(SettingsServiceApplication.class, args);
 	}

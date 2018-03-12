@@ -7,9 +7,9 @@ spring:
   cloud:
     services:
       registrationMethod: route
-#  data:
-#    mongodb:
-#      uri: mongodb://CloudFoundry_gr96rqgi_8ngdj3ra_te1vk55l:d-yZJXF1dVnJdPUu4f456KsU1S8Z3DU0@ds239587.mlab.com:39587/CloudFoundry_gr96rqgi_8ngdj3ra
+  data:
+    mongodb:
+      uri: mongodb://CloudFoundry_gr96rqgi_8ngdj3ra_te1vk55l:d-yZJXF1dVnJdPUu4f456KsU1S8Z3DU0@ds239587.mlab.com:39587/CloudFoundry_gr96rqgi_8ngdj3ra
 
 producer:
   ribbon:

@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: settingService  # for example trainerService
+    name: settingsService  # for example trainerService
   cloud:
     services:
       registrationMethod: route

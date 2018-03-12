@@ -15,7 +15,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 @EnableMongoRepositories(basePackages = "com.revature.hydra.settingsService")
-@SpringBootApplication(scanBasePackages = {"com.revature.hydra.settingsService"/*, "com.revature.assignforcecommon.security"*/},
+@SpringBootApplication(scanBasePackages = {"com.revature.hydra"/*, "com.revature.assignforcecommon.security"*/},
 		exclude = {DataSourceAutoConfiguration.class, DataSourceTransactionManagerAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
 //@EnableDiscoveryClient
 @EntityScan("com.revature.beans")

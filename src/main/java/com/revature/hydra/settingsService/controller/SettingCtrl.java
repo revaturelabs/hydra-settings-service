@@ -2,7 +2,7 @@ package com.revature.hydra.settingsService.controller;
 
 
 import com.revature.beans.Setting;
-import com.revature.hydra.settingsService.beans.transfer.ResponseErrorDTO;
+import com.revature.hydra.settingsService.transfer.ResponseErrorDTO;
 import com.revature.hydra.settingsService.service.DaoService;
 
 import io.swagger.annotations.Api;
@@ -28,7 +28,7 @@ import java.util.List;
 //@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/v2/setting")
-@ComponentScan(basePackages = "com.revature.assignforce.service")
+@ComponentScan(basePackages = "com.revature.hydra.settingsService")
 @Api(value = "Setting Controller", description = "Operations regarding settings")
 public class SettingCtrl {
     private final static Log logger = LogFactory.getLog(SettingCtrl.class);

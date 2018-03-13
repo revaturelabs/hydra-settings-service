@@ -1,4 +1,4 @@
-package com.revature.hydra.settingsService.config;
+package com.revature.hydra.settings.config;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

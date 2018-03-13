@@ -1,4 +1,4 @@
-package com.revature.hydra.settingsService.data;
+package com.revature.hydra.settings.data;
 
 import com.revature.assignforcecommon.dao.BaseRepository;
 import com.revature.beans.Setting;

@@ -1,11 +1,11 @@
-package com.revature.hydra.settingsService;
+package com.revature.hydra.settings;
 
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
-import com.revature.hydra.settingsService.config.SpringApplicationContextInitializer;
+import com.revature.hydra.settings.config.SpringApplicationContextInitializer;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;

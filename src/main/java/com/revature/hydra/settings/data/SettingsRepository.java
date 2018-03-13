@@ -1,4 +1,4 @@
-package com.revature.hydra.settingsService.data;
+package com.revature.hydra.settings.data;
 //package com.revature.assignforce.settingsservice.repositories;
 //
 //import com.revature.assignforce.settingService.domain.Settings;

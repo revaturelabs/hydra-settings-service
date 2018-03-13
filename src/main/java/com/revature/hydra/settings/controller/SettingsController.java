@@ -1,4 +1,4 @@
-package com.revature.hydra.settingsService.controller;
+package com.revature.hydra.settings.controller;
 //package com.revature.assignforce.web;
 //
 //import com.revature.assignforce.domain.Setting;

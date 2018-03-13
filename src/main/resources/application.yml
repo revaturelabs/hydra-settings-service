@@ -1,5 +1,13 @@
 server:
   port: 9091 # I don't think this is actually needed outside of local eureka, but whatever
+  
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+  client:
+    serviceUrl:
+      defaultZone: http://35.182.214.189:8761/eureka/
 
 spring:
   application:
@@ -7,10 +15,16 @@ spring:
   cloud:
     services:
       registrationMethod: route
+      #Data/mongodb was commented out by Dec2017 batch, uncommented in order to test requests Jan2018
   data:
     mongodb:
       uri: mongodb://CloudFoundry_gr96rqgi_8ngdj3ra_te1vk55l:d-yZJXF1dVnJdPUu4f456KsU1S8Z3DU0@ds239587.mlab.com:39587/CloudFoundry_gr96rqgi_8ngdj3ra
-
+  rabbitmq:
+    host: 35.183.27.227
+    port: 5672
+    username: guest
+    password: guest
+    
 producer:
   ribbon:
     ServerListRefreshInterval: 5000

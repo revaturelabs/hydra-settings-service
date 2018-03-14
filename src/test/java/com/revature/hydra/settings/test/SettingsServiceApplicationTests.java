@@ -1,4 +1,4 @@
-package com.revature.hydra.settingsService;
+package com.revature.hydra.settings.test;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

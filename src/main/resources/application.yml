@@ -2,12 +2,10 @@
 #This was a .yml file converted to .txt to not interfere with bootstap.yml
 server:
   port: 9091 # I don't think this is actually needed outside of local eureka, but whatever
-  
-
 
 spring:
   application:
-    name: settingsService  # for example trainerService
+    name: Settings  # for example trainerService
   cloud:
     services:
       registrationMethod: route
@@ -21,9 +19,18 @@ spring:
     username: guest
     password: guest
     
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+  client:
+    serviceUrl:
+      defaultZone: http://35.183.1.239:8761/eureka/    
+      
 producer:
   ribbon:
     ServerListRefreshInterval: 5000
+    
 ribbon:
   isSecure: false
 security:

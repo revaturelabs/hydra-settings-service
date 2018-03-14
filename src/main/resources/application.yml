@@ -1,6 +1,6 @@
 ##Commenting this out: this is hosted on the gitlab config server use the bootstrap.yml to access this file.
 #This was a .yml file converted to .txt to not interfere with bootstap.yml
-#server:
+server:
   port: 9091 # I don't think this is actually needed outside of local eureka, but whatever
   
 eureka:
